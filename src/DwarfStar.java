@@ -4,9 +4,6 @@ import java.util.Random;
 
 public class DwarfStar extends Star {
 
-
-public DwarfStar(){
-}
         public void setMass(){
         Random rand = new Random();
         double randomDouble = rand.nextDouble() * 3;

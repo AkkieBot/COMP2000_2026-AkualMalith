@@ -9,7 +9,6 @@ public class Body {
         this.y = y;
         this.x = x;
     }
-
     
 // Getters and Setters
     public double getX() {
@@ -68,7 +67,7 @@ public class Body {
         return Math.sqrt((dx * dx) + (dy * dy));
     }
 
-    public void updatePosition(){
+        public void updatePosition(){
 
         }
         

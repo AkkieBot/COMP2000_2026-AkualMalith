@@ -4,9 +4,6 @@ import java.util.Random;
 
 public class GiantStar extends Star{
 
-    public GiantStar(){
-    }
-
     public void setMass(){
         Random rand = new Random();
         double randomDouble = 60 + rand.nextDouble() * 180;
