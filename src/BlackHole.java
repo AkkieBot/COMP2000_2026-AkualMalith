@@ -32,9 +32,5 @@ public class BlackHole extends Body {
     double dy = getY() - other.getY();
     return Math.sqrt(dx * dx + dy * dy) < eventHorizonRadius;
 }
-
-    public void updatePosition(){
-
-    }
 }
 
